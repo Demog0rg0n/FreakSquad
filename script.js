@@ -114,4 +114,4 @@ async function isStreamLive(userName) {
 	// return await apiClient.helix.streams.getStreamByUserId(user.id) !== null;
 }
 
-isStreamLive(deepins02)
+isStreamLive('deepins02')
