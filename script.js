@@ -106,7 +106,7 @@ const apiClient = new ApiClient({ authProvider });
 
 
 async function isStreamLive(userName) {
-	const user = await apiClient.helix.users.getUserByName(userName);
+	const user = await apiClient.users.getUserByName(userName);
     console.log(user)
 	// if (!user) {
 	// 	return false;
