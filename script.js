@@ -96,7 +96,7 @@ if (buster.online == true){
 
 
 
-import { ApiClient } from 'twwwwwwitch';
+import TwitchJs from 'twitch-js'
 import { StaticAuthProvider } from 'twitch-auth';
 
 const clientId = 'k3hjjlrr9t5kofho14epoa4w34skdz';
