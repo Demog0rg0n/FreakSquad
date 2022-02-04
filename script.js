@@ -96,7 +96,7 @@ if (buster.online == true){
 
 
 
-import { ApiClient } from 'twitch';
+import { ApiClient } from '/twitch';
 import { StaticAuthProvider } from 'twitch-auth';
 
 const clientId = 'k3hjjlrr9t5kofho14epoa4w34skdz';
