@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(22, 22, 22);
+    margin: 0;
+    color: white;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+.chanelList{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgb(36, 36, 36);
+    height: 94vh;
+    line-height: 45px;
+    overflow: auto;
+    float: left;
+}
+.chanelList::-webkit-scrollbar {
+    width: 10px;               /* ширина scrollbar */
+  }
+.chanelList::-webkit-scrollbar-track {
+    background: #181818;        /* цвет дорожки */
+  }
+.chanelList::-webkit-scrollbar-thumb {
+    background-color: rgb(58, 58, 58);    /* цвет плашки */
+    border-radius: 20px;       /* закругления плашки */
+    border: 2px solid rgb(0, 0, 0);  /* padding вокруг плашки */
+  }
+.chanelListTittle{
+    display: flex;
+    padding: 10px;
+    max-width: 265px;
+    background-color: rgb(22, 22, 22);
+    border: 1px rgb(46, 46, 46) solid;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 28px;
+    font-weight: normal;
+}
+.chanelListTittle__Text{
+    position: relative;
+    left: 20px;
+}
+.FreakLogo{
+    width: 60px;
+    border-radius: 5px;
+}
+.chanelList__element{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding-left: 15px;
+    min-width: 231px;
+}
+.chanelList__element:hover{
+    background-color: rgb(27, 27, 27);
+    transition: .1s linear;
+}
+.strimersLogo{
+    position: relative;
+    top: 8px;
+    right: 6px;
+    border-radius: 50%;
+}
+.activeChanels{
+    width: 1100px;
+    height: 550px;
+    position: relative;
+    float: left;
+    background-color: rgb(36, 36, 36);
+    left: 70px;
+    top: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.raspisanie{
+    float: left;
+    background-color: rgb(36, 36, 36);
+    width: 400px;
+    height: 800px;
+    border-radius: 10px;
+    position: relative;
+    left: 130px;
+    top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.raspisanie__Tittle{
+    align-self: center;
+    position: relative;
+    top: 15px;
+}
+.activeChanels__Tittle{
+    position: relative;
+    top: 15px;
+}
+.activeChanels__Content__Tittles{
+    display: inline-flex;
+    width: 90%;
+    justify-content: space-between;
+    position: relative;
+    top: 30px; 
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px white solid;
+}
+.activeChanels__Content__Tittle{
+    min-width: 200px;
+    text-align: center;
+}
+.activeChanels__Content{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    position: relative;
+    top: 45px;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 2px white solid;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.activeChanels__Content__Name{
+    width: 200px;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+}
+.activeChanels__Content__Category{
+    width: 200px;
+    text-align: center;
+}
+.activeChanels__Content__Guests{
+    width: 200px;
+    text-align: center;
+}
+.activeChanels__Content__Time{
+    width: 200px;
+    text-align: center;
+}
+
+
