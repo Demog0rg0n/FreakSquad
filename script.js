@@ -66,32 +66,7 @@ if (buster.online == true){
 
 
 
-// const requestURL = 'https://api.twitch.tv/deepins02/users'
-// // function sendRequest(method, url, body = null){
-// //     return fetch(url)
-// // }
-// // //    sendRequest('GET', requestURL)
-// // //     .then(data => console.log(data))
-// // //     .catch(err => console.log(err))
 
-// // // const body = {
-// // //     name: 'Veve',
-// // //     age: 8,
-// // // }
-// // -H 'Accept: application/vnd.twitchtv.v5+json' \
-// // -H 'Client-ID: uo6dggojyb8d6soh92zknwmi5ej1q2' \
-// // -H 'Authorization: OAuth cfabdegwdoklmawdzdo98xt2fo512y' \
-// // -X GET 'https://api.twitch.tv/kraken/channels/129454141/subscriptions'
-// const xhr = new XMLHttpRequest()
-// xhr.open ('GET', requestURL)
-
-// xhr.responseType = 'json'
-
-// xhr.onload = () => {
-//     console.log(xhr.response)
-// }
-
-// xhr.send()
 
 
 
@@ -108,10 +83,10 @@ const apiClient = new ApiClient({ authProvider });
 async function isStreamLive(userName) {
 	const user = await apiClient.users.getUserByName(userName);
     console.log(user)
-	// if (!user) {
-	// 	return false;
-	// }
-	// return await apiClient.helix.streams.getStreamByUserId(user.id) !== null;
+	 if (!user) {
+	 	return false;
+	 }
+	 return await apiClient.helix.streams.getStreamByUserId(user.id) !== null;
 }
 
 isStreamLive('evelone192')
