@@ -72,7 +72,7 @@ if (buster.online == true){
 
 
 import { ApiClient } from './helix';
-import { StaticAuthProvider } from './twitch-auth/lib/AuthProvider/AuthProvider.js';
+import { StaticAuthProvider } from './twitch-auth/lib/AuthProvider/StaticAuthProvider.js';
 
 const clientId = 'k3hjjlrr9t5kofho14epoa4w34skdz';
 const accessToken = '7d5tkuu9u0ajihkskhjil7ctdj6r79';
