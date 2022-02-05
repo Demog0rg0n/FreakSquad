@@ -71,7 +71,7 @@ if (buster.online == true){
 
 
 
-import { ApiClient } from './helix/User/HelixUser.js';
+import { ApiClient } from './helix/User/HelixUserApi.js';
 import { StaticAuthProvider } from './twitch-auth/lib/AuthProvider/StaticAuthProvider.js';
 
 const clientId = 'k3hjjlrr9t5kofho14epoa4w34skdz';
