@@ -86,7 +86,7 @@ async function isStreamLive(userName) {
 	 if (!user) {
 	 	return false;
 	 }
-	 return await apiClient.helix.streams.getStreamByUserId(user.id) !== null;
+	 return await apiClient.streams.getStreamByUserId(user.id) !== null;
 }
 
 isStreamLive('evelone192')
